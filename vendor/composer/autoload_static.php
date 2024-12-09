@@ -8,7 +8,8 @@ class ComposerStaticInit1174c908bc7553c4890993bcabfe909e
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
-        '0900181560fbbf3b83554d9054bea3f4' => __DIR__ . '/..' . '/longman/telegram-bot/src/helpers.php',
+        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -24,16 +25,20 @@ class ComposerStaticInit1174c908bc7553c4890993bcabfe909e
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
             'Psr\\Container\\' => 14,
-            'PhpTelegramBot\\Core\\' => 20,
         ),
         'N' => 
         array (
             'Nyholm\\Psr7\\' => 12,
         ),
-        'H' => 
+        'L' => 
         array (
-            'Http\\Message\\MultipartStream\\' => 29,
-            'Http\\Discovery\\' => 15,
+            'Longman\\TelegramBot\\' => 20,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
         ),
     );
 
@@ -56,8 +61,8 @@ class ComposerStaticInit1174c908bc7553c4890993bcabfe909e
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -67,21 +72,25 @@ class ComposerStaticInit1174c908bc7553c4890993bcabfe909e
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'PhpTelegramBot\\Core\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/longman/telegram-bot/src',
-        ),
         'Nyholm\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/nyholm/psr7/src',
         ),
-        'Http\\Message\\MultipartStream\\' => 
+        'Longman\\TelegramBot\\' => 
         array (
-            0 => __DIR__ . '/..' . '/php-http/multipart-stream-builder/src',
+            0 => __DIR__ . '/..' . '/longman/telegram-bot/src',
         ),
-        'Http\\Discovery\\' => 
+        'GuzzleHttp\\Psr7\\' => 
         array (
-            0 => __DIR__ . '/..' . '/php-http/discovery/src',
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
     );
 

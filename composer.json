@@ -3,7 +3,7 @@
     "description": "bot de telegram para CRUD de un gym",
     "type": "project",
     "require": {
-        "longman/telegram-bot": "v1.x-dev",
+        "longman/telegram-bot": "0.83.1",
         "symfony/http-client": "7.3.x-dev",
         "nyholm/psr7": "1.8.x-dev"
     },
