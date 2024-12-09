@@ -1,0 +1,23 @@
+{
+    "name": "bot/gymzetta",
+    "description": "bot de telegram para CRUD de un gym",
+    "type": "project",
+    "require": {
+        "longman/telegram-bot": "v1.x-dev",
+        "symfony/http-client": "7.3.x-dev",
+        "nyholm/psr7": "1.8.x-dev"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "EddG-it",
+            "email": "20201223@tecnmtlahuac.onmicrosoft.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
