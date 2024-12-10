@@ -9,14 +9,11 @@ try{
 
     $telegram = new \Longman\TelegramBot\Telegram($bot_api_key, $bot_username);
 
-    $telegram->addCommandsPath(__DIR__ . '/vendor/longman/telegram-bot/src/Commands');
+    $telegram->addCommandsPath(__DIR__ . '/Commands');
 
     $commands = $telegram->getCommandsList();
 
-    foreach ($commands as $name=>$command){
-
-        echo"Comando: $name - {$command->getDescription()}" . PHP_EOL;
-    }
+    file_put_contents(__DIR__ . '/log.txt', print_r($telegram->getCustomInput(), true), FILE_APPEND);
 
     $telegram->handle();
 }catch(\Longman\TelegramBot\Exception\TelegramException $e){

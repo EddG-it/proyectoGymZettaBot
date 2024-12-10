@@ -6,7 +6,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 $bot_api_key = '7663270134:AAFgp7_TrVm6qNtDcPQn9guq3xDsYWIUYTo';
 $bot_username = '@gymZettaNewBot';
-$hook_url = 'https://mintcream-rook-782507.hostingersite.com/set.php';
+$hook_url = 'https://mintcream-rook-782507.hostingersite.com/hook.php';
 
 try{
 
